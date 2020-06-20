@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pure CSS Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <img
+        class="slidePicture"
+        src="./assets/computer-desk-196658.jpg"
+        alt=""
+      />
+      <img
+        class="slidePicture"
+        src="./assets/information-sign-on-shelf-251225.jpg"
+        alt=""
+      />
+      <img
+        class="slidePicture"
+        src="./assets/light-apple-working-designer-58709.jpg"
+        alt=""
+      />
+      <img
+        class="slidePicture"
+        src="./assets/silver-imac-displaying-collage-photos-1779487.jpg"
+        alt=""
+      />
+      <img
+        class="slidePicture"
+        src="./assets/turned-on-black-flat-screen-computer-monitor-and-keyboard-2585916.jpg"
+        alt=""
+      />
+      <button
+        class="btn-left"
+        onclick="handleSlideOnClick(-1)"
+      >
+        &#10094;
+      </button>
+      <button
+        class="btn-right"
+        onclick="handleSlideOnClick(+1)"
+      >
+        &#10095;
+      </button>
+    </main>
+  </body>
+</html>
