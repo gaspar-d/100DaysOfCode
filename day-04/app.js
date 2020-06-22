@@ -1,8 +1,3 @@
-// Aula 11 Laços
-// air table 3-3
-// Adivinhar o número digitado
-
-// Version with one player
 console.log("Lets Play");
 const numToGuess = Math.floor(Math.random() * 100 + 1);
 let guess = prompt("I think it is: ");
@@ -29,8 +24,6 @@ if (numToGuess === guess) {
   Hit it, congrats!!!`
   );
 }
-
-
 
 // Version with two human players
 /* 
